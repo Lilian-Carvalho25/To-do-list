@@ -8,7 +8,8 @@
 }
 
 body{
-    background-color: rgb(232, 238, 238);
+    background-color: rgb(24, 23, 23);
+    color: #fff;
 }
 
 .container{
@@ -33,6 +34,9 @@ body{
     margin-block: 12px;
     border-radius: 4px;
     font-size: 16px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    margin-top: 10px;
 }
 
 .input-container input[type="text"]{
@@ -49,16 +53,12 @@ body{
 }
 
 .input-container input[type="button"]:hover{
-    background-color: #60b160;
+    background-color: #248b24;
 }
 
 ul{
     width: 70%;
     max-width: 450px;
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center; */
 }
 
 ul li{
@@ -66,9 +66,10 @@ ul li{
     cursor: pointer;
     margin-block-end: 12px;
     border-radius: 8px;
-    border: 0.125px solid #a19f9f;
-    padding: 6px 12px;
-    background-color: #ffffff;
+    border: 0.125px solid  #ff9f0d;
+    box-shadow: #ff9f0d 0px 1px 8px;
+    padding: 10px 12px;
+    background-color: rgb(31, 30, 30);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -76,7 +77,7 @@ ul li{
 }
 
 ul li:hover{
-    background-color: #cbcaca;
+    background-color:  rgb(15, 15, 15);
 }
 
 ul li p{
@@ -94,9 +95,16 @@ ul li p{
 }
 
 .deleteBtn{
-    color: #ff0000;
+    color: #fff;
+    background-color: #e40b0b;
+    border-radius: 10px;
+    font-size: 0.8rem;
 }
 
 .editBtn{
-    color: #008000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    background-color: #068b06;
+    margin-right: 10px;
 }

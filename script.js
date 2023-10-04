@@ -4,16 +4,14 @@ const todoList = document.getElementById('todoList');
 
 let editTodo = null;
 
-// Function to add todo
 const addTodo = () => {
     const inputText = inputBox.value.trim();
     if (inputText.length <= 0) {
-        alert("You must write something in your to do");
+        alert("Você deve escrever algo para adicionar uma nova tarefa!");
         return false;
     }
 
     if (addBtn.value === "Edit") {
-        // Passing the original text to editLocalTodos function before edit it in the todoList
         editLocalTodos(editTodo.target.previousElementSibling.innerHTML);
         editTodo.target.previousElementSibling.innerHTML = inputText;
         addBtn.value = "Add";
